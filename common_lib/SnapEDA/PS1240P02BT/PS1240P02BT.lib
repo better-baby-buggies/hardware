@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# PS1240P02BT
+#
+DEF PS1240P02BT U 0 40 Y Y 1 L N
+F0 "U" 0 0 50 H I L BNN
+F1 "PS1240P02BT" 0 0 50 H I L BNN
+F2 "PS1240P02BT" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -200 0 500 0 N
+P 2 0 0 10 500 0 500 400 N
+P 2 0 0 10 500 400 -200 400 N
+P 2 0 0 10 -200 400 -200 0 N
+X P$1 P$1 0 -200 200 U 40 40 0 0 B 
+X P$2 P$2 400 -200 200 U 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library

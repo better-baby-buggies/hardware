@@ -1,3 +1,6 @@
 (sym_lib_table
   (lib (name Nano_33)(type Legacy)(uri ${KIPRJMOD}/../common_lib/Nano_33/lib/Arduino-nano-33.lib)(options "")(descr ""))
+  (lib (name SamacSys)(type Legacy)(uri ${KIPRJMOD}/../common_lib/SamacSys/SamacSys_Parts.lib)(options "")(descr ""))
+  (lib (name digikey-kicad-library)(type Legacy)(uri ${KIPRJMOD}/../common_lib/digikey-kicad-library/digikey-symbols/dk_Rectangular-Connectors-Headers-Male-Pins.lib)(options "")(descr ""))
+  (lib (name PS1240P02BT)(type Legacy)(uri ${KIPRJMOD}/../common_lib/SnapEDA/PS1240P02BT/PS1240P02BT.lib)(options "")(descr ""))
 )
