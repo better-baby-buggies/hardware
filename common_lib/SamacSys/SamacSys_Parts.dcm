@@ -12,4 +12,16 @@ K
 F https://componentsearchengine.com/Datasheets/1/L4931ABDT33-TR.pdf
 $ENDCMP
 #
+$CMP 219-3MST
+D DIP Switches / SIP Switches SPST 3 switch sections
+K
+F https://componentsearchengine.com/Datasheets/1/219-3MST.pdf
+$ENDCMP
+#
+$CMP 3CSH9R
+D Pushbutton Switches Switch Surface Ag/High Temp.Ro
+K
+F https://componentsearchengine.com/Datasheets/1/3CSH9R.pdf
+$ENDCMP
+#
 #End Doc Library

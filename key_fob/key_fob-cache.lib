@@ -124,6 +124,52 @@ X P$2 P$2 400 -200 200 U 40 40 0 0 B
 ENDDRAW
 ENDDEF
 #
+# SamacSys_219-3MST
+#
+DEF SamacSys_219-3MST S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "SamacSys_219-3MST" 650 200 50 H V L CNN
+F2 "SOP254P991X385-6N" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/219-3MST.pdf" 650 0 50 H I L CNN
+F4 "DIP Switches / SIP Switches SPST 3 switch sections" 650 -100 50 H I L CNN "Description"
+F5 "3.85" 650 -200 50 H I L CNN "Height"
+F6 "774-2193MST" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=774-2193MST" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "CTS" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "219-3MST" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 U
+X 2 2 0 -100 200 R 50 50 0 0 U
+X 3 3 0 -200 200 R 50 50 0 0 U
+X 4 4 800 -200 200 L 50 50 0 0 U
+X 5 5 800 -100 200 L 50 50 0 0 U
+X 6 6 800 0 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# SamacSys_3CSH9R
+#
+DEF SamacSys_3CSH9R S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "SamacSys_3CSH9R" 1050 200 50 H V L CNN
+F2 "3CSH9R" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/3CSH9R.pdf" 1050 0 50 H I L CNN
+F4 "Pushbutton Switches Switch Surface Ag/High Temp.Ro" 1050 -100 50 H I L CNN "Description"
+F5 "6.4" 1050 -200 50 H I L CNN "Height"
+F6 "642-3CSH9R" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=642-3CSH9R" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Apem" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "3CSH9R" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+X NO_1 1 1200 0 200 L 50 50 0 0 U
+X NO_2 2 0 0 200 R 50 50 0 0 U
+X COM_1 3 1200 -100 200 L 50 50 0 0 U
+X COM_2 4 0 -100 200 R 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
 # SamacSys_L4931ABDT33-TR
 #
 DEF SamacSys_L4931ABDT33-TR IC 0 30 Y Y 1 F N
@@ -142,26 +188,6 @@ P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
 X INPUT 1 0 0 200 R 50 50 0 0 O
 X OUTPUT 3 0 -100 200 R 50 50 0 0 W
 X GND 4 1200 0 200 L 50 50 0 0 I
-ENDDRAW
-ENDDEF
-#
-# Switch_SW_DIP_x01
-#
-DEF Switch_SW_DIP_x01 SW 0 0 Y N 1 F N
-F0 "SW" 0 150 50 H V C CNN
-F1 "Switch_SW_DIP_x01" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- SW?DIP?x1*
-$ENDFPLIST
-DRAW
-C -80 0 20 0 0 0 N
-C 80 0 20 0 0 0 N
-S -150 100 150 -100 0 1 10 f
-P 2 0 0 0 -60 5 93 46 N
-X ~ 1 -300 0 200 R 50 50 1 1 P
-X ~ 2 300 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
