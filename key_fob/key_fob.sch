@@ -567,4 +567,10 @@ Wire Wire Line
 	2750 3700 2750 3850
 Wire Wire Line
 	3150 3700 3150 3850
+Text Notes 7350 7500 0    50   ~ 0
+Key Fob Circuit Design
+Text Notes 10600 7650 0    50   ~ 0
+1
+Text Notes 8150 7650 0    50   ~ 0
+2/25/2020
 $EndSCHEMATC
