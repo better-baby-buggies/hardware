@@ -154,17 +154,6 @@ Wire Wire Line
 Wire Wire Line
 	7600 3550 7900 3550
 $Comp
-L power:+BATT #PWR0101
-U 1 1 5E36659B
-P 8250 2200
-F 0 "#PWR0101" H 8250 2050 50  0001 C CNN
-F 1 "+BATT" H 8265 2373 50  0000 C CNN
-F 2 "" H 8250 2200 50  0001 C CNN
-F 3 "" H 8250 2200 50  0001 C CNN
-	1    8250 2200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0102
 U 1 1 5E35CC95
 P 7900 4100
@@ -173,17 +162,6 @@ F 1 "GND" H 7905 3927 50  0000 C CNN
 F 2 "" H 7900 4100 50  0001 C CNN
 F 3 "" H 7900 4100 50  0001 C CNN
 	1    7900 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR0103
-U 1 1 5E319CC0
-P 8000 2300
-F 0 "#PWR0103" H 8000 2150 50  0001 C CNN
-F 1 "+3.3V" H 8015 2473 50  0000 C CNN
-F 2 "" H 8000 2300 50  0001 C CNN
-F 3 "" H 8000 2300 50  0001 C CNN
-	1    8000 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -413,14 +391,12 @@ Wire Wire Line
 	2750 3000 2750 2900
 Text GLabel 2750 3850 3    50   Input ~ 0
 POWER_LED
-Text GLabel 9050 2300 2    50   Input ~ 0
-LED_SW
 Text GLabel 9050 2200 2    50   Input ~ 0
+LED_SW
+Text GLabel 9050 2300 2    50   Input ~ 0
 POWER_SW
 Text GLabel 9050 2400 2    50   Input ~ 0
 SPEAKER_SW
-Wire Wire Line
-	8250 2300 8000 2300
 Text GLabel 4150 2850 1    50   Input ~ 0
 LED_SW
 $Comp
@@ -590,6 +566,30 @@ F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=774-2193MST" H 8900 1800 
 F 8 "CTS" H 8900 1700 50  0001 L CNN "Manufacturer_Name"
 F 9 "219-3MST" H 8900 1600 50  0001 L CNN "Manufacturer_Part_Number"
 	1    8250 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 2300 8000 2300
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 5E319CC0
+P 8250 2200
+F 0 "#PWR0103" H 8250 2050 50  0001 C CNN
+F 1 "+3.3V" H 8265 2373 50  0000 C CNN
+F 2 "" H 8250 2200 50  0001 C CNN
+F 3 "" H 8250 2200 50  0001 C CNN
+	1    8250 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5E5C3234
+P 8000 2300
+F 0 "#PWR?" H 8000 2150 50  0001 C CNN
+F 1 "+BATT" H 8015 2473 50  0000 C CNN
+F 2 "" H 8000 2300 50  0001 C CNN
+F 3 "" H 8000 2300 50  0001 C CNN
+	1    8000 2300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
