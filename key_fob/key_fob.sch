@@ -147,7 +147,7 @@ Text GLabel 4350 3850 3    50   Input ~ 0
 RECEIVE_LED
 Text GLabel 4750 3850 3    50   Input ~ 0
 SPEAKER_LED
-Text GLabel 6350 3300 2    50   Input ~ 0
+Text GLabel 6350 2900 2    50   Input ~ 0
 SPEAKER
 Wire Wire Line
 	7600 3650 7900 3650
@@ -200,7 +200,7 @@ Wire Wire Line
 	6350 4000 6550 4000
 Wire Wire Line
 	6550 4000 6550 4100
-Text GLabel 6350 2900 2    50   Input ~ 0
+Text GLabel 6350 3300 2    50   Input ~ 0
 BUTTON0
 Text GLabel 6350 3900 2    50   Input ~ 0
 POWER_LED
@@ -393,8 +393,6 @@ Text GLabel 2750 3850 3    50   Input ~ 0
 POWER_LED
 Text GLabel 9050 2200 2    50   Input ~ 0
 LED_SW
-Text GLabel 9050 2300 2    50   Input ~ 0
-POWER_SW
 Text GLabel 9050 2400 2    50   Input ~ 0
 SPEAKER_SW
 Text GLabel 4150 2850 1    50   Input ~ 0
@@ -568,8 +566,6 @@ F 9 "219-3MST" H 8900 1600 50  0001 L CNN "Manufacturer_Part_Number"
 	1    8250 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8250 2300 8000 2300
 $Comp
 L power:+3.3V #PWR0103
 U 1 1 5E319CC0
@@ -582,14 +578,18 @@ F 3 "" H 8250 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR?
+L power:+BATT #PWR0101
 U 1 1 5E5C3234
-P 8000 2300
-F 0 "#PWR?" H 8000 2150 50  0001 C CNN
-F 1 "+BATT" H 8015 2473 50  0000 C CNN
-F 2 "" H 8000 2300 50  0001 C CNN
-F 3 "" H 8000 2300 50  0001 C CNN
-	1    8000 2300
+P 9500 2300
+F 0 "#PWR0101" H 9500 2150 50  0001 C CNN
+F 1 "+BATT" H 9515 2473 50  0000 C CNN
+F 2 "" H 9500 2300 50  0001 C CNN
+F 3 "" H 9500 2300 50  0001 C CNN
+	1    9500 2300
 	1    0    0    -1  
 $EndComp
+Text GLabel 8250 2300 0    50   Input ~ 0
+POWER_SW
+Wire Wire Line
+	9500 2300 9050 2300
 $EndSCHEMATC
