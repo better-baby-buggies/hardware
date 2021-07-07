@@ -1,0 +1,263 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_LED
+#
+DEF Device_LED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_LED" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Nano_33_Arduino-NANO-33
+#
+DEF Nano_33_Arduino-NANO-33 J 0 40 Y N 1 F N
+F0 "J" 0 975 50 H V C CNN
+F1 "Nano_33_Arduino-NANO-33" 50 -900 50 H V C CNN
+F2 "" -325 -100 50 H I C CNN
+F3 "" -325 -100 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -350 -800 350 800 0 1 0 N
+S -150 400 150 100 0 1 0 F
+S -125 900 125 750 0 1 0 F
+S 250 -775 -250 -175 0 1 0 F
+X 1 1 -500 700 150 R 50 50 1 1 P
+X 10 10 -500 -200 150 R 50 50 1 1 P
+X 11 11 -500 -300 150 R 50 50 1 1 P
+X 12 12 -500 -400 150 R 50 50 1 1 P
+X 13 13 -500 -500 150 R 50 50 1 1 P
+X 14 14 -500 -600 150 R 50 50 1 1 P
+X 15 15 -500 -700 150 R 50 50 1 1 P
+X 16 16 500 -700 150 L 50 50 1 1 P
+X 17 17 500 -600 150 L 50 50 1 1 P
+X 18 18 500 -500 150 L 50 50 1 1 P
+X 19 19 500 -400 150 L 50 50 1 1 P
+X 2 2 -500 600 150 R 50 50 1 1 P
+X 20 20 500 -300 150 L 50 50 1 1 P
+X 21 21 500 -200 150 L 50 50 1 1 P
+X 22 22 500 -100 150 L 50 50 1 1 P
+X 23 23 500 0 150 L 50 50 1 1 P
+X 24 24 500 100 150 L 50 50 1 1 P
+X 25 25 500 200 150 L 50 50 1 1 P
+X 26 26 500 300 150 L 50 50 1 1 P
+X 27 27 500 400 150 L 50 50 1 1 P
+X 28 28 500 500 150 L 50 50 1 1 P
+X 29 29 500 600 150 L 50 50 1 1 P
+X 3 3 -500 500 150 R 50 50 1 1 P
+X 30 30 500 700 150 L 50 50 1 1 P
+X 4 4 -500 400 150 R 50 50 1 1 P
+X 5 5 -500 300 150 R 50 50 1 1 P
+X 6 6 -500 200 150 R 50 50 1 1 P
+X 7 7 -500 100 150 R 50 50 1 1 P
+X 8 8 -500 0 150 R 50 50 1 1 P
+X 9 9 -500 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PS1240P02BT_PS1240P02BT
+#
+DEF PS1240P02BT_PS1240P02BT U 0 40 Y Y 1 L N
+F0 "U" 0 0 50 H I L BNN
+F1 "PS1240P02BT_PS1240P02BT" 0 0 50 H I L BNN
+F2 "PS1240P02BT" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 0 10 -200 0 500 0 N
+P 2 0 0 10 -200 400 -200 0 N
+P 2 0 0 10 500 0 500 400 N
+P 2 0 0 10 500 400 -200 400 N
+X P$1 P$1 0 -200 200 U 40 40 0 0 B
+X P$2 P$2 400 -200 200 U 40 40 0 0 B
+ENDDRAW
+ENDDEF
+#
+# SamacSys_219-3MST
+#
+DEF SamacSys_219-3MST S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "SamacSys_219-3MST" 650 200 50 H V L CNN
+F2 "SOP254P991X385-6N" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/219-3MST.pdf" 650 0 50 H I L CNN
+F4 "DIP Switches / SIP Switches SPST 3 switch sections" 650 -100 50 H I L CNN "Description"
+F5 "3.85" 650 -200 50 H I L CNN "Height"
+F6 "774-2193MST" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=774-2193MST" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "CTS" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "219-3MST" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 U
+X 2 2 0 -100 200 R 50 50 0 0 U
+X 3 3 0 -200 200 R 50 50 0 0 U
+X 4 4 800 -200 200 L 50 50 0 0 U
+X 5 5 800 -100 200 L 50 50 0 0 U
+X 6 6 800 0 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# SamacSys_3CSH9R
+#
+DEF SamacSys_3CSH9R S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "SamacSys_3CSH9R" 1050 200 50 H V L CNN
+F2 "3CSH9R" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/3CSH9R.pdf" 1050 0 50 H I L CNN
+F4 "Pushbutton Switches Switch Surface Ag/High Temp.Ro" 1050 -100 50 H I L CNN "Description"
+F5 "6.4" 1050 -200 50 H I L CNN "Height"
+F6 "642-3CSH9R" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=642-3CSH9R" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Apem" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "3CSH9R" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+X NO_1 1 1200 0 200 L 50 50 0 0 U
+X NO_2 2 0 0 200 R 50 50 0 0 U
+X COM_1 3 1200 -100 200 L 50 50 0 0 U
+X COM_2 4 0 -100 200 R 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# SamacSys_L4931ABDT33-TR
+#
+DEF SamacSys_L4931ABDT33-TR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "SamacSys_L4931ABDT33-TR" 1050 200 50 H V L CNN
+F2 "TO228P972X240-3N" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/L4931ABDT33-TR.pdf" 1050 0 50 H I L CNN
+F4 "LDO Regulator 3.3V 0.25A DPAK L4931ABDT33-TR, Low Dropout Voltage Regulator, 0.25A, 3.3 V +/-1%, 3-Pin DPAK" 1050 -100 50 H I L CNN "Description"
+F5 "2.4" 1050 -200 50 H I L CNN "Height"
+F6 "511-L4931ABDT33-TR" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-L4931ABDT33-TR" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "STMicroelectronics" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "L4931ABDT33-TR" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+X INPUT 1 0 0 200 R 50 50 0 0 O
+X OUTPUT 3 0 -100 200 R 50 50 0 0 W
+X GND 4 1200 0 200 L 50 50 0 0 I
+ENDDRAW
+ENDDEF
+#
+# digikey-kicad-library_B2B-PH-K-S_LF__SN_
+#
+DEF digikey-kicad-library_B2B-PH-K-S_LF__SN_ J 0 40 Y Y 1 F N
+F0 "J" -100 50 50 H V R CNN
+F1 "digikey-kicad-library_B2B-PH-K-S_LF__SN_" 50 -150 50 H V C CNN
+F2 "digikey-footprints:PinHeader_1x2_P2mm_Drill1mm" 200 200 60 H I L CNN
+F3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" 200 300 60 H I L CNN
+F4 "455-1704-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "B2B-PH-K-S(LF)(SN)" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Rectangular Connectors - Headers, Male Pins" 200 700 60 H I L CNN "Family"
+F8 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/jst-sales-america-inc/B2B-PH-K-S(LF)(SN)/455-1704-ND/926611" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN HEADER VERT 2POS 2MM" 200 1000 60 H I L CNN "Description"
+F11 "JST Sales America Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -50 0 150 -100 1 1 0 f
+S -10 -45 10 -65 1 1 0 F
+S 90 -45 110 -65 1 1 0 F
+X ~ 1 0 100 100 D 50 50 1 1 P
+X ~ 2 100 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+BATT
+#
+DEF power_+BATT #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+BATT" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +BATT 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
